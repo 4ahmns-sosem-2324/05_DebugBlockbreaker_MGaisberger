@@ -1,7 +1,7 @@
 # 05_DebugBlockbreaker_MGaisberger
 classDiagram
 
-  ```mermaid
+ ```mermaid
     class Ball {
         + paddle: Paddle
         + xPush: float
