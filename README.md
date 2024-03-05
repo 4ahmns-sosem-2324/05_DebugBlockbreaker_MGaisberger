@@ -1,6 +1,7 @@
 # 05_DebugBlockbreaker_MGaisberger
 classDiagram
-  
+
+  ```mermaid
     class Ball {
         + paddle: Paddle
         + xPush: float
@@ -101,3 +102,4 @@ classDiagram
         - GetXPosition() float
 
     }
+```
