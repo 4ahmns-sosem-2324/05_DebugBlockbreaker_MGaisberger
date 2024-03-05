@@ -1,5 +1,5 @@
 # 05_DebugBlockbreaker_MGaisberger
-classDiagram
+
 
  ```mermaid
     class Ball {
