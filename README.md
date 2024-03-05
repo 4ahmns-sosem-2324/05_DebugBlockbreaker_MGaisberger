@@ -1,13 +1,6 @@
 # 05_DebugBlockbreaker_MGaisberger
 classDiagram
-    MonoBehaviour <|-- SceneLoader
-    MonoBehaviour <|-- Level
-    MonoBehaviour <|-- Ball
-    MonoBehaviour <|-- LoseCollider
-    MonoBehaviour <|-- GameSession
-    MonoBehaviour <|-- Block
-    MonoBehaviour <|-- Paddle
-
+  
     class Ball {
         + paddle: Paddle
         + xPush: float
