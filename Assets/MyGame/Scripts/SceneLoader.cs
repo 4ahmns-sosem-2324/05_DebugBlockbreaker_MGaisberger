@@ -19,7 +19,7 @@ public class SceneLoader : MonoBehaviour {
     public void LoadWelcome()
     {
         SceneManager.LoadScene(0);
-        FindObjectOfType<GameSession>().ResetGame();
+        FindObjectOfType <GameSession> ().ResetGame();
     }
 
     public void LoadGameOver()
@@ -34,6 +34,6 @@ public class SceneLoader : MonoBehaviour {
 
     public bool IsLastPlayScene()
     {
-        return SceneManager.GetActiveScene() == LEVEL5;
+        return SceneManager.GetActiveScene().name == "LEVEL5";
     }
 }

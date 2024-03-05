@@ -16,7 +16,7 @@ public class Block : MonoBehaviour {
 
     //cached reference
     private Level level;
-    public GameSession gameStatus;
+    private GameSession gameStatus;
 
     //state variables
     [SerializeField] int timesHit; //only for debug purposes
