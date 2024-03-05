@@ -1,8 +1,8 @@
-# 05_DebugBlockbreaker_MGaisberger
+# 05-Mermaid-MGaisberger
 
-
- ```mermaid
-    class Ball {
+```mermaid
+classDiagram
+  class Ball {
         + paddle: Paddle
         + xPush: float
         + yPush: float
@@ -100,6 +100,4 @@
 
         - Update() void
         - GetXPosition() float
-
-    }
 ```
