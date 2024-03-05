@@ -7,7 +7,7 @@ public class Block : MonoBehaviour {
 
     //constants
     private const string BREAKABLE = "Breakable";
-    private const string UNBREAKABLE = "UnBreakable";
+    private const string UNBREAKABLE = "Unbreakable";
 
     //config params
     public AudioClip breakSound;
@@ -16,12 +16,12 @@ public class Block : MonoBehaviour {
 
     //cached reference
     private Level level;
-    private GameSession gameStatus;
+    public GameSession gameStatus;
 
     //state variables
     [SerializeField] int timesHit; //only for debug purposes
 
-    private void Start()
+    public void Start()
     {
         CountBreakableBlocks();
         gameStatus = FindObjectOfType<GameSession>();
@@ -90,7 +90,7 @@ public class Block : MonoBehaviour {
 
     private void TriggerSparkleVFX()
     {
-        GameObject sparkles = Instantiate(blockSparklesVFX, transform.position.x, transform.rotation);
+        GameObject sparkles = Instantiate(blockSparklesVFX, transform.position, transform.rotation);
         Destroy(sparkles, 1f);
     }
 }
