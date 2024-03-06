@@ -5,7 +5,7 @@ using UnityEngine.UIElements;
 using TMPro;
 using System;
 
-public class GameSession:MonoBehaviour{
+public class GameSession : MonoBehaviour{
 
     //config parameters
     [Range(0.1f, 10f)] public float gameSpeed = 1f;
@@ -31,10 +31,10 @@ public class GameSession:MonoBehaviour{
         }
     }
 
-    private object FindObjectsOfType<T>()
-    {
-        throw new NotImplementedException();
-    }
+    //private object FindObjectsOfType<T>()
+    //{
+    //    throw new NotImplementedException();
+    //}
 
     public void Start()
     {
