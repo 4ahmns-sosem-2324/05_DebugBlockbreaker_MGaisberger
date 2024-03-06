@@ -100,4 +100,5 @@ classDiagram
 
         - Update() void
         - GetXPosition() float
+}
 ```
